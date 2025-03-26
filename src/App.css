@@ -1,42 +1,130 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body{
+    background-color: #606060;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header{
+    background-color: #F87D5F;
+    height: 20vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.headtext{
+    color: white;
+    border: solid 1px #F86437;
+    background-color: #F86437;
+    width: 40%;
+    height: 14vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(16px, 5vw, 50px);
+    border-radius: 20px;
 }
 
-.card {
-  padding: 2em;
+main{
+    display: flex;
+    justify-content: center;
+    font-size: clamp(10px,2.2vw,50px);
+}
+.logpass{
+    margin: 2%;
+    border: solid #D9D9D9;
+    border-radius: 28px;
+    width: 55%;
+    height: 60vmin;
+    background-color:#D9D9D9 ;
+    font-weight: bold;
+    text-align: center;
 }
 
-.read-the-docs {
-  color: #888;
+.in{
+    margin: 3.5%;
 }
+
+.in input{
+    font-size: clamp(10px,1vw,15px);
+}
+
+
+.logpass input{
+    width: 60%;
+    height: 8vmin;
+    margin: 1%;
+    border: solid white 1px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.logpass a {
+    font-size: clamp(5px,1vw,13px);
+    margin-right: -20%;
+}
+
+.logpass button{
+    background-color: #F86437;
+    border: solid 1px #F86437;
+    border-radius: 16px;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 20%;
+    font-size: clamp(2px, 2vw, 50px);
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 22% 0 0;
+    float: right ;
+}
+
+.logpass button:hover{
+    background-color: #F87D5F;
+    border: solid 1px #F87D5F;
+}
+
+
+
+
+.text{
+    margin: 0 46% 0 0 ;
+}
+
+.pass {
+    margin: 0 38% 0 0 ;
+}
+
+footer{
+    border: solid #484848 1px;
+    background-color:#484848 ;
+    color: white;
+    height: 10vmin;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 99.9%;
+    bottom: 0;
+}
+
+.photos{
+    display: flex;
+    gap: 20%;
+    margin: 2%;
+}
+
+.photos img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
