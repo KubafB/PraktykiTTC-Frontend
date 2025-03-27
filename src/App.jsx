@@ -16,7 +16,7 @@ function App() {
     <>
     <header>
       <div className="headtext">
-        Seatplace
+        Seat  place
       </div>
     </header>
 
