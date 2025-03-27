@@ -90,8 +90,6 @@ main{
 }
 
 
-
-
 .text{
     margin: 0 46% 0 0 ;
 }
@@ -110,6 +108,8 @@ footer{
     position: absolute;
     width: 99.9%;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .photos{

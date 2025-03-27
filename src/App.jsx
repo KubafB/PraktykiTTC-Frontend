@@ -4,19 +4,18 @@ import IN from './assets/IN.png'
 import YT from './assets/YT.png'
 import IG from './assets/IG.png'
 import './App.css'
-import { Autocomplete, Checkbox, Slide, Slider,TextField,TextareaAutosize } from '@mui/material';
-
-
+import LightMode from './assets/Lightmode'
+import { Autocomplete,Box ,Checkbox, Slide, Slider,TextField,TextareaAutosize, ThemeProvider, createTheme, Switch , CssBaseline , Typography, FormControlLabel } from '@mui/material';
 
 
 function App() {
   
-
+  
   return (
     <>
-    <header>
-      <div className="headtext">
-        Seat  place
+    <header id='header'>
+      <div id='headtext' className="headtext">
+        Seatplace
       </div>
     </header>
 
@@ -28,17 +27,21 @@ function App() {
          </div>
          <div className="bt">
          <a href="#">If you don't have an account click here</a>
-         <button>Next</button>
+         <button id='bt'>Next</button>
          </div>
        </div>
     </main>
 
-    <footer>
+    <footer id='footer'>
     <div className="photos">
         <img src={FB}/>
         <img src={IN}/>
         <img src={YT}/>
         <img src={IG}/>
+      </div>
+      <div className="switch">
+      Change mode:
+      <LightMode/>
       </div>
     </footer>
      
