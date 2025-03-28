@@ -15,8 +15,13 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     <header id='header'>
       <div id='headtext' className="headtext">
+=======
+    <header>
+      <div className="headtext">
+>>>>>>> 10210938fab69816fd0114116face70ded3b878a
         Seat  place
       </div>
     </header>
